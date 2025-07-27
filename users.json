@@ -1,0 +1,11 @@
+import json
+
+# Load users from the JSON file
+def load_users():
+    try:
+        with open('users.json', 'r') as file:  # Try to open the file
+            return json.load(file)  # Read the file and return the data
+    except FileNotFoundError:
+        return {}  # If the file doesn't exist, return an empty dictionary
+
+users = load_users()  # This will store the loaded user data
