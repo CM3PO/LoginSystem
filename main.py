@@ -42,7 +42,7 @@ def main():
             username = input("Enter username: ").strip()
             password = input("Enter password: ").strip()
             if login(username, password):
-                print("Login successful!")
+                print("Login successful! ")
             else:
                 print("Invalid username or password.")
         
