@@ -44,7 +44,7 @@ def main():
             if login(username, password):
                 print("Login successful! ")
             else:
-                print("Invalid username or password.")
+                print("Invalid username or password. Try again.")
         
         elif action == "c":
             username = input("Choose a username: ").strip()
@@ -52,7 +52,7 @@ def main():
             create_user(username, password)
         
         elif action == "q":
-            print("Goodbye!")
+            print("Goodbye! See you next time!👋")
             break
         
         else:
