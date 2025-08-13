@@ -35,7 +35,7 @@ def main():
     users = load_users()
 
     while True:
-        print("\n-- Welcome to the Login System --")
+        print("\n--  Welcome to the Login System  --")
         action = input("Do you want to login (L), create a user (C), or quit (Q)? ").strip().lower()
 
         if action == "l":
